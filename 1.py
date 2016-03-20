@@ -1,7 +1,7 @@
 from main import *
-#file = 'test.csv'
-file = '../train_2.csv'
-x, y = get_data(file)
+file_name = 'test.csv'
+#file_name = '../train_2.csv'
+x, y = get_data(file_name)
 reg(x,y)
 print results
 for i in range(1,1000):
